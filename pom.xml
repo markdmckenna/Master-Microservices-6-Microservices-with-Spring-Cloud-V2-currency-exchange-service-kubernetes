@@ -28,7 +28,7 @@
 		</dependency>
 		
 		<!-- Change Kubernetes -->
-<!--		<dependency>
+<!--	<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
@@ -72,8 +72,7 @@
 			<artifactId>resilience4j-spring-boot2</artifactId>
 		</dependency>
 		
-		<!-- Change Kubernetes -->	
-<!--		<dependency>
+		<dependency>
 		    <groupId>io.micrometer</groupId>
 		    <artifactId>micrometer-observation</artifactId>
 		</dependency>
@@ -81,11 +80,13 @@
 		    <groupId>io.micrometer</groupId>
 		    <artifactId>micrometer-tracing-bridge-otel</artifactId>
 		</dependency>
-		<dependency>
+		
+		<!-- Change Kubernetes -->	
+	<!--<dependency>
 		    <groupId>io.opentelemetry</groupId>
 		    <artifactId>opentelemetry-exporter-zipkin</artifactId>
 		</dependency>-->
-		
+				
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
