@@ -26,7 +26,7 @@ public class CurrencyExchangeController {
 		
 //		Change Kubernetes
 		String host = environment.getProperty("HOSTNAME");
-		String version = "v11";
+		String version = "v12";
 		
 		CurrencyExchange currencyExchange = currencyExchangeRepository
 				.findByFromAndTo(from, to).orElseThrow(() -> new RuntimeException("Unable to find data for " + from + " " + to));
